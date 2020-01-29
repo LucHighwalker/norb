@@ -1,0 +1,11 @@
+{
+  "imports": [
+    "controller",
+    "routes"
+  ],
+  "routes": "auth",
+  "middleware": "authenticate",
+  "dependencies": [
+    "mailer"
+  ]
+}
